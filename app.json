@@ -2,7 +2,7 @@
   "name": "File Store Bot",
   "description": "Telegram File Store Bot ",
   "logo": "https://graph.org/Bulma-04-17",
-  "keywords": ["File Sharing Premium Bot", "Mongo DB"],    
+  "keywords": ["File Store Bot", "Mongo DB"],    
   "repository": "https://github.com/AnimeFactory/File_Store_Bot",
   "success_url": "https://t.me/Anime_Factory_Official",
   "env": {

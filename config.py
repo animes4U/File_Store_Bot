@@ -13,14 +13,14 @@ from logging.handlers import RotatingFileHandler
 
 
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6668896608:AAGXja3jmxrBnW7IhkVDplQVGcLB_PjUkUc")
+APP_ID = int(os.environ.get("APP_ID", "21016163"))
+API_HASH = os.environ.get("API_HASH", "365f3421c4243310e1c738e2b6fb63a1")
 
 
 OWNER = os.environ.get("OWNER", "https://t.me/Grand_Zeno_Omni_KingBot") #Owner username
 OWNER_ID = int(os.environ.get("OWNER_ID", "5806054139")) #Owner user id
-DB_URL = os.environ.get("DB_URL", "")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://frankanimes:qayplmwsxokn@cluster0.xksjqdt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "Cluster0")
 
 
@@ -52,7 +52,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to
 
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
-PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
+PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
 
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
